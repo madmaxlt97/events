@@ -1,0 +1,117 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.button-container {
+  margin-bottom: 20px;
+}
+
+#see-all-users {
+  margin-top: 2rem;
+}
+
+.title {
+  font-size: 26px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  font-family: "Arial", sans-serif;
+}
+
+form,
+.user-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+  max-width: 800px;
+  padding-bottom: 30px;
+  padding-top: 10px;
+  padding-right: 40px;
+  padding-left: 40px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #4a4a4a;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 1px;
+  margin-top: 6px;
+}
+
+input,
+button {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  width: 100%;
+}
+input {
+  background-color: #f8f9fa;
+  color: #212529;
+  transition: border-color 0.3s ease;
+}
+
+input:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+button {
+  background-color: #002b58;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+button[type="button"] {
+  background-color: #6c757d;
+}
+
+button[type="button"]:hover {
+  background-color: #5a6268;
+}
+
+p {
+  color: red;
+  font-size: 14px;
+}
+
+input {
+  background-color: #e9ecef;
+}
+
+input::placeholder {
+  color: #6c757d;
+}
+
+.user-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.user-table th,
+.user-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.user-table tr:hover {
+  background-color: #575353;
+}
+
+.user-table button {
+  padding: 5px 10px;
+  font-size: 14px;
+}
