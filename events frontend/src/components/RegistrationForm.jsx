@@ -80,7 +80,9 @@ export default function RegistrationForm() {
           onChange={handleChange}
           placeholder="Age"
         />
-        <button type="submit">Register</button>
+        <button type="submit" id="reg-btn">
+          Register
+        </button>
       </form>
       {errorMessage && <p>{errorMessage}</p>}
       <div className="button-container" id="see-all-users">

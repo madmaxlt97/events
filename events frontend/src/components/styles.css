@@ -115,3 +115,7 @@ input::placeholder {
   padding: 5px 10px;
   font-size: 14px;
 }
+
+#reg-btn {
+  margin-left: 0.7rem;
+}
